@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'iniFont';
+    src: url('./font/LearningCurve.ttf');
+    src: url('./font/LearningCurveDashed.ttf');
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin-lambat {
+    animation: spin 4s linear infinite;
+}

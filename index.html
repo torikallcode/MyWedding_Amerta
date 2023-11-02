@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" id="firstt" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amerta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css"/>
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800&family=Great+Vibes&family=Italianno&family=Lusitana:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800&family=Pinyon+Script&family=Sacramento&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- opened -->
+    <section class="container min-w-full h-screen relative flex justify-center">
+        <div id="bgOpened" class="bg-[url('img/opened1-Amerta-PhotoRoom2.jpg')] h-screen w-full bg-cover bg-center absolute top-0 left-0  -z-10 lg:bg-top-5 "></div>
+        <main class="grid grid-cols-1 gap-3 content-between">
+            <div class="mt-10">
+                <h1 class="font-utama text-center text-xl uppercase text-gray-200 drop-shadow-xl font-light lg:text-2xl">undangan <br>pernikahan</h1>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-3 mb-32 md:mb-20 lg:gap-5">
+                <h1 class="font-sacramento font-medium text-5xl sm:text-6xl text-gray-200 lg:text-7xl drop-shadow-lg">Shimizu & Tanaka</h1>
+                <h2 class="font-utama font-base text-xl sm:text-2xl tracking-[0.5rem] text-gray-200 border-t-2 border-gray-200 p-2 mb-3 lg:text-2xl drop-shadow-xl backdrop:shadow-lg">13 . 12 . 2024</h2>
+                <a id="btn-opened" href="#quote" onclick="enable()" class="bg-transparent py-2 px-4 uppercase text-gray-300 font-utama text-sm rounded-lg border">buka undangan</a>
+            </div>
+        </main>
+    </section>
+    <!-- Quote -->
+    <section id="quote" class="w-full h-96 relative flex justify-center bg-[#ded1c0ff]">
+        <main class="flex flex-col justify-center items-center w-full max-w-xs sm:max-w-md gap-7 -mt-10">
+            <img src="img/computer-icons-quotation-mark-citation-quotation-f085f0571a3b77d46c6e261a613714cc.png" alt="" class="w-20 h-20 opacity-30 mx-auto">
+            <h1 class="font-utama text-center mx-auto text-sm font-medium sm:text-base">"Cinta adalah satu-satunya bahasa yang diucapkan di seluruh dunia, namun hanya memiliki arti yang mendalam ketika diucapkan dalam pernikahan"</h1>
+        </main>
+    </section>
+    <!-- Pengantin -->
+    <section class="w-full relative flex justify-center bg-[#f4f4f4] pt-7 pb-20">
+        <main>
+            <h2 class="text-4xl text-center my-5 font-sacramento mb-16 text-gray-800 sm:text-5xl">– Pengantin –</h2>
+            <div class="grid grid-cols-1 xl:grid-cols-2 xl:gap-5">
+                <!-- Laki laki -->
+                <section id="laki-laki" class="mb-16">
+                    <div class="max-w-xs sm:max-w-md mx-auto">
+                        <img src="img/f4d1c765f2b8e868de7274639235f75e.jpg" alt="" class="object-cover rounded-full shadow-md w-64 mb-7 mx-auto">
+                        <h1 class="font-sacramento text-4xl text-center mx-auto mb-7 sm:text-5xl">Ryunosuke Tanaka</h1>
+                        <p class="font-utama text-sm text-center mx-auto font-normal mb-3 sm:text-base">Anak pertama yang di karunia kepada ibu blabla dan bapak blabla yang menjadi cahaya dan memberikan kebahagiaan</p>
+                        <div class="w-full flex justify-center items-center mx-auto gap-5">
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </div>
+                    </div>
+                </section>
+                <!-- Perempuan -->
+                <section id="perempuan">
+                    <div class="max-w-xs sm:max-w-md mx-auto">
+                        <img src="img/Perempuan-Amerta.jpg" alt="" class="object-cover rounded-full shadow-md w-64 mb-7 mx-auto">
+                        <h1 class="font-sacramento text-4xl text-center mx-auto mb-7 sm:text-5xl">Kiyoko Shimizu</h1>
+                        <p class="font-utama text-sm text-center mx-auto font-normal mb-3 sm:text-base">Anak kedua yang di karunia kepada Ibu blabla dan bapak blabla yang penuh harapan dan selalu melengkapi kebahagiaan keluarga</p>
+                        <div class="w-full flex justify-center items-center mx-auto gap-5">
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                            <svg role="img" viewBox="0 0 24 24" class="w-3 sm:w-4" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </section>
+    <!-- Pengantin 2 -->
+    <section class="w-full h-screen relative flex justify-center items-center overflow-hidden">
+            <div style="background-image: url(img/pengantin31.jpg);" class="bg-cover w-full h-full absolute bg-top lg:bg-center flex items-center justify-center lg:hidden">
+                <!-- <img src="img/love.png" alt="" class="w-20"> -->
+            </div>
+            <div style="background-image: url(img/pengantin311.jpg);" class="bg-cover w-full h-full absolute bg-center lg:bg-center hidden lg:block">
+                <!-- <img src="img/love.png" alt="" class="w-20"> -->
+            </div>
+    </section>
+    <!-- Love story -->
+    <section class="w-full relative flex flex-col justify-center bg-[#f4f4f4] pt-7 pb-16">
+        <h2 class="text-4xl text-center my-5 font-sacramento mb-16 text-gray-800 sm:text-5xl">– Love Story –</h2>
+        <div class="grid grid-cols-1 gap-3 max-w-xs mx-auto mb-24 sm:max-w-md lg:max-w-2xl lg:grid-cols-2">
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl">2020</h1>
+            <div>
+                <h2 class="font-utama font-light uppercase text-gray-800 text-center mx-auto text-sm sm:text-base lg:font-semibold lg:text-start">first date</h2>
+                <p class="font-utama text-center text-gray-800 text-sm sm:text-base lg:text-start">Di kafe yang teduh, pertemuan pertama mereka berlangsung. Mata mereka bertemu, senyuman tercipta, dan tak lama kemudian pertanyaan, "Maukah kamu pergi bersamaku lagi?" mewarnai malam itu.</p>
+            </div>
+        </div> 
+        <div class="grid grid-cols-1 gap-3 max-w-xs mx-auto mb-24 sm:max-w-md lg:max-w-2xl lg:grid-cols-2">
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl lg:hidden">2021</h1>
+            <div>
+                <h2 class="font-utama font-light uppercase text-gray-800 text-center mx-auto text-sm sm:text-base lg:font-semibold lg:text-end">moving in</h2>
+                <p class="font-utama text-center text-gray-800 text-sm sm:text-base lg:text-end">Setelah beberapa tahun bersama, mereka memutuskan untuk tinggal bersama. Rumah mereka adalah tempat tawa, cinta, dan kebersamaan.</p>
+            </div>
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl hidden lg:block">2021</h1>
+        </div> 
+        <div class="grid grid-cols-1 gap-3 max-w-xs mx-auto mb-24 sm:max-w-md lg:max-w-2xl lg:grid-cols-2">
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl">2022</h1>
+            <div>
+                <h2 class="font-utama font-light uppercase text-gray-800 text-center mx-auto text-sm sm:text-base lg:font-semibold lg:text-start">engagement</h2>
+                <p class="font-utama text-center text-gray-800 text-sm sm:text-base lg:text-start">Di taman yang indah, di bawah pohon saksi cinta mereka, dia melamar. Dengan senyuman, dia mengucapkan kata-kata yang lama dinanti: "Maukah kamu menikah denganku?"</p>
+            </div>
+        </div> 
+        <div class="grid grid-cols-1 gap-3 max-w-xs mx-auto sm:max-w-md lg:max-w-2xl lg:grid-cols-2">
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl lg:hidden">2023</h1>
+            <div>
+                <h2 class="font-utama font-light uppercase text-gray-800 text-center mx-auto text-sm sm:text-base lg:font-semibold lg:text-end">wedding</h2>
+                <p class="font-utama text-center text-gray-800 text-sm sm:text-base lg:text-end">Di bawah langit biru, mereka bersatu dalam pernikahan yang dihadiri oleh keluarga dan teman-teman. Mereka mencium satu sama lain sebagai suami dan istri, memulai babak baru dalam cerita cinta mereka yang tak berujung.</p>
+            </div>
+            <h1 class="font-angka text-6xl italic text-center text-gray-500 mx-auto mb-7 sm:text-7xl hidden lg:block">2023</h1>
+        </div> 
+    </section>
+    <!-- time -->
+    <section class="relative h-[400px] w-full bg-[#ded1c0ff] flex justify-center items-center flex-col p-5 mx-auto">
+        <!-- <h1 class="font-sty text-secondary text-6xl font-medium mx-auto text-center absolute top-7 right-0 left-0 z-10">Date</h1> -->
+        <div class="bg-[url('img/pngfind.com-floral-pattern-png-612309.png')] w-full h-full absolute bg-cover bg-center opacity-20"></div>
+        <div class="simply-countdown flex justify-center items-center mx-auto text-sm text-secondary font-angka lg:px-14 z-10 font-semibold m-7 text-gray-800"></div>
+        <!-- <div class="simply-countdown flex justify-center italic text-gray-800 text-center font-angka text-secondary gap-7 sm:gap-10 [&>*>h2]:text-4xl [&>*>h2]:sm:text-5xl [&>*>h2]:md:text-6xl [&>*>h2]:font-bold [&>*>p]:text-sm [&>*>p]:font-semibold">
+            <div>
+                <h2 id="day">30</h2>
+                <p class="text-sm">hari</p>
+            </div>
+            <div>
+                <h2 id="hour">20</h2>
+                <p>jam</p>
+            </div>
+            <div>
+                <h2 id="minute">59</h2>
+                <p>menit</p>
+            </div>
+            <div>
+                <h2 id="second">40</h2>
+                <p>detik</p>
+            </div>
+            </div> -->
+    </section>
+    <!-- iformasi acara -->
+    <section id="informasi-acara" class="flex justify-center items-center w-full pt-7 pb-11 bg-[#f4f4f4]">
+        <main class="w-full">
+            <h2 class="text-4xl text-center my-5 font-sacramento mb-20 text-gray-800 sm:text-5xl mx-auto">– informasi acara –</h2>
+            <div class="container flex justify-center flex-col mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 max-w-xs sm:max-w-md lg:max-w-2xl mb-11 mx-auto lg:mb-20">
+                    <div class="flex flex-col justify-center items-center mx-auto mb-16 lg:mb-0">
+                        <h1 class="font-utama text-gray-800 text-center text-xl">Akad</h1>
+                        <h2 class="font-utama text-gray-800 text-center text-2xl">sabtu, 17 juli 2024</h2>
+                        <h3 class="font-utama text-gray-800 text-center text-sm">pukul 09.00 WITA - selesai</h3>
+                        <p class="font-utama text-gray-800 text-center text-sm">Jl. Pejanggik, Majidi, Kec. Selong, Kabupaten Lombok Timur, Nusa Tenggara Bar.</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center mx-auto mb-16 lg:mb-0">
+                        <h1 class="font-utama text-gray-800 text-center text-xl">Resepsi</h1>
+                        <h2 class="font-utama text-gray-800 text-center text-2xl">sabtu, 17 juli 2024</h2>
+                        <h3 class="font-utama text-gray-800 text-center text-sm">pukul 15.00 WITA - selesai</h3>
+                        <p class="font-utama text-gray-800 text-center text-sm">Jl. Pejanggik, Majidi, Kec. Selong, Kabupaten Lombok Timur, Nusa Tenggara Bar.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="rounded-lg overflow-hidden flex flex-col justify-center items-center mb-5">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.393750811052!2d116.51315967487106!3d-8.654049688040418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcc4ea0f13f5d41%3A0x1481c4b722ee03be!2sRinjani%20Waterpark!5e0!3m2!1sid!2sid!4v1697004094868!5m2!1sid!2sid"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-80 h-52 sm:w-[450px] md:w-[600px] lg:w-[500px] lg:h-44 mb-7 xl:w-[600px] xl:h-60"></iframe>
+                    </div>
+                    <a href="https://maps.app.goo.gl/otbHjiZgpQGtCjh89" class="text-center font-utama text-gray-800 px-7 text-base py-2 bg-[#ded1c0ff] rounded-md text-secondary font-semibold mx-auto">Lihat Peta</a>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- Wedding galery -->
+    <section id="galery" class="w-full bg-[#f4f4f4] flex items-center justify-center relative pt-16 pb-11">
+        <main class="w-full px-10 flex flex-col justify-center items-center">
+            <h2 class="text-4xl text-center my-5 font-sacramento mb-20 text-gray-800 sm:text-5xl mx-auto">– Wedding Galery –</h2>
+            <div class="grid grid-cols-1 mx-auto md:grid-cols-2 md:gap-x-7 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta8.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta4.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta7.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta5.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta2.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta6.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta1.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta3.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta9.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta10.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta11.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+                <div class="w-72 sm:w-96 md:w-72 relative aspect-[4/3] mx-auto mb-7 hover:opacity-80">
+                    <div style="background-image: url(img/amerta12.jpg);" class="bg-cover bg-center w-full h-full absolute"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- Kirim hadiah -->
+    <section id="kirim-hadia" class="w-full flex justify-center bg-[#ded1c0ff] pt-11 pb-11">
+        <main class="w-full px-10 mx-auto">
+            <h2 class="text-4xl text-center my-5 font-sacramento mb-11 text-gray-800 sm:text-5xl mx-auto">– Kirim Hadiah –</h2>
+            <div class="flex flex-col justify-center mx-auto sm:max-w-md lg:max-2xl">
+                <div class="mx-auto mb-11">
+                    <p class="font-utama text-sm md:text-base text-center mx-auto text-gray-800">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quod, blanditiis aliquam fuga reiciendis quibusdam!</p>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 lg:gap-11 lg:mb-11">
+                    <div class="mx-auto lg:mb-0 mb-7">
+                        <h1 class="font-utama text-lg md:text-xl text-gray-800 text-center">BCA</h1>
+                        <h1 class="font-utama text-sm md:text-base text-gray-800 text-center">123456789 - Ryunosuke Tanaka</h1>
+                    </div>
+                    <div class="mx-auto lg:mb-0 mb-11">
+                        <h1 class="font-utama text-lg md:text-xl text-gray-800 text-center">BRI</h1>
+                        <h1 class="font-utama text-sm md:text-base text-gray-800 text-center">123456789 - Kiyoko Shimizu</h1>
+                    </div>
+                </div>
+                <div style="background-image: url(img/barcode.png);" class="mx-auto w-52 h-52 bg-cover bg-center"></div>
+            </div>
+        </main>
+    </section>
+    <!-- footer -->
+    <section id="footer" class="w-full h-screen relative flex justify-center items-center">
+        <div style="background-image: url(img/amertaEnd-PhotoRoom1.jpg);" class="w-full h-full bg-cover bg-top lg:hidden"></div>
+        <div style="background-image: url(img/amertaEndjpg-PhotoRoom2.jpg);" class="w-full h-full bg-cover bg-top hidden lg:block"></div>
+        <!-- <div class="w-full h-96 lg:h- absolute bottom-0 bg-gradient-to-b from-transparent to-[#ded1c0ff]"> -->
+        </div>
+        <p class="font-sacramento text-center max-w-xs text-xl mx-auto absolute bottom-40 text-gray-100 ">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.</p>
+        <h1 class="font-sacramento text-center text-4xl mx-auto absolute bottom-20 text-gray-100 sm:text-5xl">–Tanaka & Shimizu–</h1>
+    </section>
+
+    <!-- audio -->
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="sound/WhatsApp Audio 2023-11-02 at 21.49.25.mpeg" type="audio/mpeg">
+        </audio>
+        
+            <div class="fixed bottom-7 right-5 border-2 border-black rounded-full p-3 audio-icon cursor-pointer hidden">
+                <img src="img/musical-note.png" alt="" class="w-7 flex justify-center items-center">
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        simplyCountdown('.simply-countdown' , {
+            year: 2023, // required
+            month: 12, // required
+            day: 13, // required
+            hours: 7, // Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+    });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
