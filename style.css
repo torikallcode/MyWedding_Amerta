@@ -992,6 +992,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -1018,6 +1023,10 @@ video {
 
 .tracking-\[0\.5rem\] {
   letter-spacing: 0.5rem;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-gray-100 {
@@ -1234,10 +1243,6 @@ video {
     gap: 1.25rem;
   }
 
-  .lg\:gap-20 {
-    gap: 5rem;
-  }
-
   .lg\:bg-top-5 {
     background-position: center top -25rem;
   }
@@ -1265,6 +1270,16 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:font-semibold {
     font-weight: 600;
   }
@@ -1289,6 +1304,11 @@ video {
 
   .xl\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
